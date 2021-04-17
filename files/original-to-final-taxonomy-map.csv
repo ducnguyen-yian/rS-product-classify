@@ -1,0 +1,465 @@
+id,name,subcategories,parent,leaf_flag,parents,number_parents,subcategory_names,parent_names,target_category,human_category
+0,Main,"[1, 149, 240, 255, 337, 414, 455]",,No,[],0,"['Women', 'Men', 'Unisex', 'Kids', 'Home & Decor', 'Hair & Beauty', 'Media']",[],Main,N/A
+1,Women,"[2, 101, 118, 128]",0,No,[0.0],0,"['Clothing', 'Shoes', 'Handbags', 'Accessories']",['Main'],,Women
+2,Clothing,"[3, 12, 19, 35, 50, 51, 60, 61, 66, 72, 73, 80, 85, 86]",1,No,"[1.0, 0.0]",1,"['Jeans', 'Dresses', 'Intimate Wear', 'Coats & Jackets', 'Jumpsuits & Rompers', 'Pants', 'Shorts', 'Sleepwear', 'Skirts', 'Suits', 'Sweaters', 'Swimwear', 'Sweatshirts & Hoodies', 'Tops']","['Women', 'Main']","Main,Clothing",Women
+3,Jeans,"[4, 5, 6, 7, 8, 9, 10, 11]",2,No,"[2.0, 1.0, 0.0]",2,"['Classic', 'Distressed', 'Flare', 'Relaxed', 'Skinny', 'Straight', 'Stretch', 'Maternity']","['Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+4,Classic,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+5,Distressed,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+6,Flare,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+7,Relaxed,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+8,Skinny,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+9,Straight,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+10,Stretch,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+11,Maternity,[],3,Yes,"[3.0, 2.0, 1.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Jeans",Women
+12,Dresses,"[13, 14, 15, 16, 17, 18]",2,No,"[2.0, 1.0, 0.0]",2,"['Bridal Dresses', 'Casual Dresses', 'Cocktail Dresses', 'Day Dresses', 'Evening Dresses', 'Maternity']","['Clothing', 'Women', 'Main']","Main,Clothing,Dresses",Women
+13,Bridal Dresses,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses,Formal Dresses",Women
+14,Casual Dresses,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses,Casual Dresses",Women
+15,Cocktail Dresses,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses,Casual Dresses",Women
+16,Day Dresses,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses,Casual Dresses",Women
+17,Evening Dresses,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses,Formal Dresses",Women
+18,Maternity,[],12,Yes,"[12.0, 2.0, 1.0, 0.0]",3,[],"['Dresses', 'Clothing', 'Women', 'Main']","Main,Clothing,Dresses",Women
+19,Intimate Wear,"[20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]",2,No,"[2.0, 1.0, 0.0]",2,"['Bras', 'Camisole', 'Chemises', 'Nightgowns', 'Hosiery', 'Pajamas', 'Lingerie', 'Panties', 'Maternity', 'Robes', 'Socks', 'Shapewear', 'Slippers', 'Thongs', 'Sport Bras & Underwear']","['Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+20,Bras,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+21,Camisole,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+22,Chemises,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+23,Nightgowns,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+24,Hosiery,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+25,Pajamas,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+26,Lingerie,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+27,Panties,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+28,Maternity,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+29,Robes,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+30,Socks,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+31,Shapewear,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+32,Slippers,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+33,Thongs,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Intimate Wear",Women
+34,Sport Bras & Underwear,[],19,Yes,"[19.0, 2.0, 1.0, 0.0]",3,[],"['Intimate Wear', 'Clothing', 'Women', 'Main']","Main,Clothing,Underwear & Socks",Women
+35,Coats & Jackets,"[36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]",2,No,"[2.0, 1.0, 0.0]",2,"['Coats', 'Fur Coats', 'Activewear', 'Leather Coats', 'Puffers', 'Raincoats & Trench Coats', 'Wool Coats', 'Blazers', 'Jackets', 'Casual Jackets', 'Vests', 'Maternity', 'Leather Jackets', 'Denim Jackets']","['Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+36,Coats,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+37,Fur Coats,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+38,Activewear,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+39,Leather Coats,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+40,Puffers,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+41,Raincoats & Trench Coats,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+42,Wool Coats,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+43,Blazers,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+44,Jackets,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+45,Casual Jackets,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+46,Vests,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+47,Maternity,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+48,Leather Jackets,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+49,Denim Jackets,[],35,Yes,"[35.0, 2.0, 1.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Women', 'Main']","Main,Clothing,Coats & Jackets",Women
+50,Jumpsuits & Rompers,[],2,Yes,"[2.0, 1.0, 0.0]",2,[],"['Clothing', 'Women', 'Main']","Main,Clothing,Jumpers & Rompers",Women
+51,Pants,"[52, 53, 54, 55, 56, 57, 58, 59]",2,No,"[2.0, 1.0, 0.0]",2,"['Casual Pants', 'Cropped Pants', 'Dress Pants', 'Leggings', 'Skinny Pants', 'Activewear', 'Maternity', 'Wide Leg Pants']","['Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+52,Casual Pants,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+53,Cropped Pants,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+54,Dress Pants,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+55,Leggings,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Leggings",Women
+56,Skinny Pants,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+57,Activewear,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants,Activewear",Women
+58,Maternity,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+59,Wide Leg Pants,[],51,Yes,"[51.0, 2.0, 1.0, 0.0]",3,[],"['Pants', 'Clothing', 'Women', 'Main']","Main,Clothing,Pants",Women
+60,Shorts,[],2,Yes,"[2.0, 1.0, 0.0]",2,[],"['Clothing', 'Women', 'Main']","Main,Clothing,Shorts",Women
+61,Sleepwear,"[62, 63, 64, 65]",2,No,"[2.0, 1.0, 0.0]",2,"['Nightgowns', 'Pajamas', 'Robes', 'Slippers']","['Clothing', 'Women', 'Main']","Main,Clothing,Sleepwear",Women
+62,Nightgowns,[],61,Yes,"[61.0, 2.0, 1.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Sleepwear",Women
+63,Pajamas,[],61,Yes,"[61.0, 2.0, 1.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Sleepwear",Women
+64,Robes,[],61,Yes,"[61.0, 2.0, 1.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Sleepwear",Women
+65,Slippers,[],61,Yes,"[61.0, 2.0, 1.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Sleepwear",Women
+66,Skirts,"[67, 68, 69, 70, 71]",2,No,"[2.0, 1.0, 0.0]",2,"['Mini Skirts', 'Mid-length Skirts', 'Long Skirts', 'Maternity', 'Activewear']","['Clothing', 'Women', 'Main']","Main,Clothing,Skirts",Women
+67,Mini Skirts,[],66,Yes,"[66.0, 2.0, 1.0, 0.0]",3,[],"['Skirts', 'Clothing', 'Women', 'Main']","Main,Clothing,Skirts,Short Skirts",Women
+68,Mid-length Skirts,[],66,Yes,"[66.0, 2.0, 1.0, 0.0]",3,[],"['Skirts', 'Clothing', 'Women', 'Main']","Main,Clothing,Skirts",Women
+69,Long Skirts,[],66,Yes,"[66.0, 2.0, 1.0, 0.0]",3,[],"['Skirts', 'Clothing', 'Women', 'Main']","Main,Clothing,Skirts,Long Skirts",Women
+70,Maternity,[],66,Yes,"[66.0, 2.0, 1.0, 0.0]",3,[],"['Skirts', 'Clothing', 'Women', 'Main']","Main,Clothing,Skirts",Women
+71,Activewear,[],66,Yes,"[66.0, 2.0, 1.0, 0.0]",3,[],"['Skirts', 'Clothing', 'Women', 'Main']","Main,Clothing,Skirts",Women
+72,Suits,[],2,Yes,"[2.0, 1.0, 0.0]",2,[],"['Clothing', 'Women', 'Main']","Main,Clothing,Suits",Women
+73,Sweaters,"[74, 75, 76, 77, 78, 79]",2,No,"[2.0, 1.0, 0.0]",2,"['Cardigans', 'Cashmere Sweaters', 'Crewneck', 'Turtleneck Sweaters', 'V-Neck Sweaters', 'Maternity']","['Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+74,Cardigans,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters,Cardigans",Women
+75,Cashmere Sweaters,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+76,Crewneck,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+77,Turtleneck Sweaters,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+78,V-Neck Sweaters,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+79,Maternity,[],73,Yes,"[73.0, 2.0, 1.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Women', 'Main']","Main,Clothing,Sweaters",Women
+80,Swimwear,"[81, 82, 83, 84]",2,No,"[2.0, 1.0, 0.0]",2,"['One-Piece Swimwear', 'Two-Piece Swimwear', 'Cover-ups', 'Maternity']","['Clothing', 'Women', 'Main']","Main,Clothing,Swimwear",Women
+81,One-Piece Swimwear,[],80,Yes,"[80.0, 2.0, 1.0, 0.0]",3,[],"['Swimwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Swimwear",Women
+82,Two-Piece Swimwear,[],80,Yes,"[80.0, 2.0, 1.0, 0.0]",3,[],"['Swimwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Swimwear",Women
+83,Cover-ups,[],80,Yes,"[80.0, 2.0, 1.0, 0.0]",3,[],"['Swimwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Swimwear",Women
+84,Maternity,[],80,Yes,"[80.0, 2.0, 1.0, 0.0]",3,[],"['Swimwear', 'Clothing', 'Women', 'Main']","Main,Clothing,Swimwear",Women
+85,Sweatshirts & Hoodies,[],2,Yes,"[2.0, 1.0, 0.0]",2,[],"['Clothing', 'Women', 'Main']","Main,Clothing,Hoodies & Sweatshirts",Women
+86,Tops,"[87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]",2,No,"[2.0, 1.0, 0.0]",2,"['Blouses & Shirts', 'Activewear', 'Cashmere Tops', 'Crop Tops', 'Halters', 'Longsleeve Tops', 'Shortsleeve Tops', 'Sleeveless Tops', '3/4 Sleeve Tops', 'Tanks', 'Tees', 'Tunics', 'Maternity', 'Polos']","['Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+87,Blouses & Shirts,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+88,Activewear,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Activewear",Women
+89,Cashmere Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+90,Crop Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Sleeveless",Women
+91,Halters,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Sleeveless",Women
+92,Longsleeve Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Longsleeves",Women
+93,Shortsleeve Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Shortsleeves",Women
+94,Sleeveless Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Sleeveless",Women
+95,3/4 Sleeve Tops,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+96,Tanks,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Sleeveless",Women
+97,Tees,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Tees",Women
+98,Tunics,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+99,Maternity,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops",Women
+100,Polos,[],86,Yes,"[86.0, 2.0, 1.0, 0.0]",3,[],"['Tops', 'Clothing', 'Women', 'Main']","Main,Clothing,Tops,Shortsleeves",Women
+101,Shoes,"[102, 106, 107, 108, 109, 110, 111, 112, 113, 117]",1,No,"[1.0, 0.0]",1,"['Boots & Booties', 'Comfort', 'Flats', 'Wedges', 'Heels', 'Mules & Slides', 'Sandals', 'Loafers & Slip-ons', 'Sneakers & Athletic', 'Hiking']","['Women', 'Main']","Main,Shoes",Women
+102,Boots & Booties,"[103, 104, 105]",101,No,"[101.0, 1.0, 0.0]",2,"['Ankle Boots', 'Booties', 'Boots']","['Shoes', 'Women', 'Main']","Main,Shoes,Boots",Women
+103,Ankle Boots,[],102,Yes,"[102.0, 101.0, 1.0, 0.0]",3,[],"['Boots & Booties', 'Shoes', 'Women', 'Main']","Main,Shoes,Boots,Short Boots",Women
+104,Booties,[],102,Yes,"[102.0, 101.0, 1.0, 0.0]",3,[],"['Boots & Booties', 'Shoes', 'Women', 'Main']","Main,Shoes,Boots,Short Boots",Women
+105,Boots,[],102,Yes,"[102.0, 101.0, 1.0, 0.0]",3,[],"['Boots & Booties', 'Shoes', 'Women', 'Main']","Main,Shoes,Boots",Women
+106,Comfort,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes",Women
+107,Flats,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes",Women
+108,Wedges,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Wedges",Women
+109,Heels,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Heels",Women
+110,Mules & Slides,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Mules & Slides",Women
+111,Sandals,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Sandals",Women
+112,Loafers & Slip-ons,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Loafers & Slip-ons",Women
+113,Sneakers & Athletic,"[114, 115, 116]",101,No,"[101.0, 1.0, 0.0]",2,"['Running', 'Trainers', 'Sneakers']","['Shoes', 'Women', 'Main']","Main,Shoes,Sneakers & Athletic",Women
+114,Running,[],113,Yes,"[113.0, 101.0, 1.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Women', 'Main']","Main,Shoes,Sneakers & Athletic",Women
+115,Trainers,[],113,Yes,"[113.0, 101.0, 1.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Women', 'Main']","Main,Shoes,Sneakers & Athletic",Women
+116,Sneakers,[],113,Yes,"[113.0, 101.0, 1.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Women', 'Main']","Main,Shoes,Sneakers & Athletic",Women
+117,Hiking,[],101,Yes,"[101.0, 1.0, 0.0]",2,[],"['Shoes', 'Women', 'Main']","Main,Shoes,Sneakers & Athletic",Women
+118,Handbags,"[119, 120, 121, 122, 123, 124, 125, 126, 127]",1,No,"[1.0, 0.0]",1,"['Backpacks', 'Clutches', 'Crossbody Bags', 'Evening Handbags', 'Hobo Bags', 'Satchels', 'Shoulder Bags', 'Tote Bags', 'Wallets & Card Cases']","['Women', 'Main']","Main,Bags,Handbags",Women
+119,Backpacks,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags,Backpacks",Women
+120,Clutches,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags,Handbags",Women
+121,Crossbody Bags,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags",Women
+122,Evening Handbags,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags,Handbags",Women
+123,Hobo Bags,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags",Women
+124,Satchels,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags",Women
+125,Shoulder Bags,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags,Shoulder Bags",Women
+126,Tote Bags,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Bags,Totes",Women
+127,Wallets & Card Cases,[],118,Yes,"[118.0, 1.0, 0.0]",2,[],"['Handbags', 'Women', 'Main']","Main,Accessories,Wallets",Women
+128,Accessories,"[129, 130, 131, 132, 133, 134, 135, 136, 139, 148]",1,No,"[1.0, 0.0]",1,"['Belts', 'Gloves & Mittens', 'Hair Accessories', 'Hats', 'Headphones', 'Phone Cases', 'Scarves & Wraps', 'Sunglasses & Eyewear', 'Watches & Jewelry', 'Umbrella']","['Women', 'Main']","Main,Accessories",Women
+129,Belts,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Belts",Women
+130,Gloves & Mittens,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Gloves",Women
+131,Hair Accessories,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Hair Accessories",Women
+132,Hats,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Hats",Women
+133,Headphones,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Electronics",Women
+134,Phone Cases,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Phone Cases",Women
+135,Scarves & Wraps,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Scarves",Women
+136,Sunglasses & Eyewear,"[137, 138]",128,No,"[128.0, 1.0, 0.0]",2,"['Eyeglasses', 'Sunglasses']","['Accessories', 'Women', 'Main']","Main,Accessories,Eyewear",Women
+137,Eyeglasses,[],136,Yes,"[136.0, 128.0, 1.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Women', 'Main']","Main,Accessories,Eyewear,Eyeglasses",Women
+138,Sunglasses,[],136,Yes,"[136.0, 128.0, 1.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Women', 'Main']","Main,Accessories,Eyewear,Sunglasses",Women
+139,Watches & Jewelry,"[140, 141, 142, 143, 144, 145, 146, 147]",128,No,"[128.0, 1.0, 0.0]",2,"['Fine Jewelry', 'Bracelets', 'Charms', 'Earrings', 'Necklaces', 'Pins', 'Rings', 'Watches']","['Accessories', 'Women', 'Main']","Main,Accessories,Jewelry",Women
+140,Fine Jewelry,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry",Women
+141,Bracelets,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry,Bracelets",Women
+142,Charms,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry",Women
+143,Earrings,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry,Earrings",Women
+144,Necklaces,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry,Necklaces",Women
+145,Pins,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry",Women
+146,Rings,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry,Rings",Women
+147,Watches,[],139,Yes,"[139.0, 128.0, 1.0, 0.0]",3,[],"['Watches & Jewelry', 'Accessories', 'Women', 'Main']","Main,Accessories,Jewelry,Watches",Women
+148,Umbrella,[],128,Yes,"[128.0, 1.0, 0.0]",2,[],"['Accessories', 'Women', 'Main']","Main,Accessories,Umbrellas",Women
+149,Men,"[150, 203, 217, 223]",0,No,[0.0],0,"['Clothing', 'Shoes', 'Bags', 'Accessories']",['Main'],,Men
+150,Clothing,"[151, 152, 161, 169, 175, 182, 183, 187, 188, 196, 197, 198]",149,No,"[149.0, 0.0]",1,"['Blazers & Sport Coats', 'Coats & Jackets', 'Jeans', 'Pants', 'Shirts', 'Shorts', 'Sleepwear', 'Suits', 'Sweaters', 'Sweatshirts & Hoodies', 'Swimwear', 'Underwear & Socks']","['Men', 'Main']","Main,Clothing",Men
+151,Blazers & Sport Coats,[],150,Yes,"[150.0, 149.0, 0.0]",2,[],"['Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+152,Coats & Jackets,"[153, 154, 155, 156, 157, 158, 159, 160]",150,No,"[150.0, 149.0, 0.0]",2,"['Denim Jackets', 'Coats', 'Jackets', 'Activewear', 'Leather Jackets', 'Overcoats', 'Raincoats & Trench Coats', 'Wool Coats']","['Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+153,Denim Jackets,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+154,Coats,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+155,Jackets,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+156,Activewear,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+157,Leather Jackets,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+158,Overcoats,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+159,Raincoats & Trench Coats,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+160,Wool Coats,[],152,Yes,"[152.0, 150.0, 149.0, 0.0]",3,[],"['Coats & Jackets', 'Clothing', 'Men', 'Main']","Main,Clothing,Coats & Jackets",Men
+161,Jeans,"[162, 163, 164, 165, 166, 167, 168]",150,No,"[150.0, 149.0, 0.0]",2,"['Bootcut Jeans', 'Distressed Jeans', 'Loose Jeans', 'Low Rise Jeans', 'Relaxed Jeans', 'Slim Jeans', 'Straight Leg Jeans']","['Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+162,Bootcut Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+163,Distressed Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+164,Loose Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+165,Low Rise Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+166,Relaxed Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+167,Slim Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+168,Straight Leg Jeans,[],161,Yes,"[161.0, 150.0, 149.0, 0.0]",3,[],"['Jeans', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Jeans",Men
+169,Pants,"[170, 171, 172, 173, 174]",150,No,"[150.0, 149.0, 0.0]",2,"['Cargo Pants', 'Casual Pants', 'Chinos & Khakis', 'Activewear', 'Dress Pants']","['Clothing', 'Men', 'Main']","Main,Clothing,Pants",Men
+170,Cargo Pants,[],169,Yes,"[169.0, 150.0, 149.0, 0.0]",3,[],"['Pants', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants",Men
+171,Casual Pants,[],169,Yes,"[169.0, 150.0, 149.0, 0.0]",3,[],"['Pants', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants",Men
+172,Chinos & Khakis,[],169,Yes,"[169.0, 150.0, 149.0, 0.0]",3,[],"['Pants', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants",Men
+173,Activewear,[],169,Yes,"[169.0, 150.0, 149.0, 0.0]",3,[],"['Pants', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants,Activewear",Men
+174,Dress Pants,[],169,Yes,"[169.0, 150.0, 149.0, 0.0]",3,[],"['Pants', 'Clothing', 'Men', 'Main']","Main,Clothing,Pants",Men
+175,Shirts,"[176, 177, 178, 179, 180, 181]",150,No,"[150.0, 149.0, 0.0]",2,"['Dress Shirts', 'Longsleeve Shirts', 'Shortsleeve Shirts', 'Polo Shirts', 'Activewear', 'T-Shirts & Tank Tops']","['Clothing', 'Men', 'Main']","Main,Clothing,Tops",Men
+176,Dress Shirts,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops",Men
+177,Longsleeve Shirts,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops,Longsleeves",Men
+178,Shortsleeve Shirts,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops,Shortsleeves",Men
+179,Polo Shirts,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops,Shortsleeves",Men
+180,Activewear,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops,Activewear",Men
+181,T-Shirts & Tank Tops,[],175,Yes,"[175.0, 150.0, 149.0, 0.0]",3,[],"['Shirts', 'Clothing', 'Men', 'Main']","Main,Clothing,Tops,Tees",Men
+182,Shorts,[],150,Yes,"[150.0, 149.0, 0.0]",2,[],"['Clothing', 'Men', 'Main']","Main,Clothing,Shorts",Men
+183,Sleepwear,"[184, 185, 186]",150,No,"[150.0, 149.0, 0.0]",2,"['Pajamas', 'Robes', 'Slippers']","['Clothing', 'Men', 'Main']","Main,Clothing,Sleepwear",Men
+184,Pajamas,[],183,Yes,"[183.0, 150.0, 149.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Men', 'Main']","Main,Clothing,Sleepwear",Men
+185,Robes,[],183,Yes,"[183.0, 150.0, 149.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Men', 'Main']","Main,Clothing,Sleepwear",Men
+186,Slippers,[],183,Yes,"[183.0, 150.0, 149.0, 0.0]",3,[],"['Sleepwear', 'Clothing', 'Men', 'Main']","Main,Shoes,Slippers",Men
+187,Suits,[],150,Yes,"[150.0, 149.0, 0.0]",2,[],"['Clothing', 'Men', 'Main']","Main,Clothing,Suits",Men
+188,Sweaters,"[189, 190, 191, 192, 193, 194, 195]",150,No,"[150.0, 149.0, 0.0]",2,"['Cardigans & Zip Ups', 'Cashmere Sweaters', 'Crewneck Sweaters', 'Half-zip Sweaters', 'Turtleneck Sweaters', 'V-neck Sweaters', 'Vests']","['Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+189,Cardigans & Zip Ups,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters,Cardigans",Men
+190,Cashmere Sweaters,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+191,Crewneck Sweaters,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+192,Half-zip Sweaters,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+193,Turtleneck Sweaters,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+194,V-neck Sweaters,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters",Men
+195,Vests,[],188,Yes,"[188.0, 150.0, 149.0, 0.0]",3,[],"['Sweaters', 'Clothing', 'Men', 'Main']","Main,Clothing,Sweaters,Vests",Men
+196,Sweatshirts & Hoodies,[],150,Yes,"[150.0, 149.0, 0.0]",2,[],"['Clothing', 'Men', 'Main']","Main,Clothing,Hoodies & Sweatshirts",Men
+197,Swimwear,[],150,Yes,"[150.0, 149.0, 0.0]",2,[],"['Clothing', 'Men', 'Main']","Main,Clothing,Swimwear",Men
+198,Underwear & Socks,"[199, 200, 201, 202]",150,No,"[150.0, 149.0, 0.0]",2,"['Briefs', 'Boxers', 'Socks', 'Undershirts']","['Clothing', 'Men', 'Main']","Main,Clothing,Underwear & Socks",Men
+199,Briefs,[],198,Yes,"[198.0, 150.0, 149.0, 0.0]",3,[],"['Underwear & Socks', 'Clothing', 'Men', 'Main']","Main,Clothing,Underwear & Socks",Men
+200,Boxers,[],198,Yes,"[198.0, 150.0, 149.0, 0.0]",3,[],"['Underwear & Socks', 'Clothing', 'Men', 'Main']","Main,Clothing,Underwear & Socks",Men
+201,Socks,[],198,Yes,"[198.0, 150.0, 149.0, 0.0]",3,[],"['Underwear & Socks', 'Clothing', 'Men', 'Main']","Main,Clothing,Underwear & Socks",Men
+202,Undershirts,[],198,Yes,"[198.0, 150.0, 149.0, 0.0]",3,[],"['Underwear & Socks', 'Clothing', 'Men', 'Main']","Main,Clothing,Underwear & Socks",Men
+203,Shoes,"[204, 205, 206, 207, 208, 209, 210]",149,No,"[149.0, 0.0]",1,"['Boots', 'Sandals', 'Dress Shoes', 'Loafers & Slip-ons', 'Casual Shoes', 'Hiking', 'Sneakers & Athletic']","['Men', 'Main']","Main,Shoes",Men
+204,Boots,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes,Boots",Men
+205,Sandals,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes,Sandals",Men
+206,Dress Shoes,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes",Men
+207,Loafers & Slip-ons,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes,Loafers & Slip-ons",Men
+208,Casual Shoes,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes",Men
+209,Hiking,[],203,Yes,"[203.0, 149.0, 0.0]",2,[],"['Shoes', 'Men', 'Main']","Main,Shoes",Men
+210,Sneakers & Athletic,"[211, 212, 213, 214, 215, 216]",203,No,"[203.0, 149.0, 0.0]",2,"['Basketball', 'Running', 'Trainers', 'Skate', 'Sneakers', 'Soccer']","['Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+211,Basketball,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+212,Running,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+213,Trainers,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+214,Skate,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+215,Sneakers,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+216,Soccer,[],210,Yes,"[210.0, 203.0, 149.0, 0.0]",3,[],"['Sneakers & Athletic', 'Shoes', 'Men', 'Main']","Main,Shoes,Sneakers & Athletic",Men
+217,Bags,"[218, 219, 220, 221, 222]",149,No,"[149.0, 0.0]",1,"['Shoulder bags', 'Totes', 'Business Bags', 'Backpacks', 'Gym and Sports Bags']","['Men', 'Main']","Main,Bags",Men
+218,Shoulder bags,[],217,Yes,"[217.0, 149.0, 0.0]",2,[],"['Bags', 'Men', 'Main']","Main,Bags,Shoulder Bags",Men
+219,Totes,[],217,Yes,"[217.0, 149.0, 0.0]",2,[],"['Bags', 'Men', 'Main']","Main,Bags,Totes",Men
+220,Business Bags,[],217,Yes,"[217.0, 149.0, 0.0]",2,[],"['Bags', 'Men', 'Main']","Main,Bags",Men
+221,Backpacks,[],217,Yes,"[217.0, 149.0, 0.0]",2,[],"['Bags', 'Men', 'Main']","Main,Bags,Backpacks",Men
+222,Gym and Sports Bags,[],217,Yes,"[217.0, 149.0, 0.0]",2,[],"['Bags', 'Men', 'Main']","Main,Bags,Gym & Sports Bags",Men
+223,Accessories,"[224, 225, 226, 229, 230, 231, 232, 233, 235, 236, 237, 238, 239]",149,No,"[149.0, 0.0]",1,"['Belts', 'Cuff Links', 'Sunglasses & Eyewear', 'Gloves & Mittens', 'Scarves', 'Hats', 'Ties', 'Jewelry', 'Headphones', 'Phone Cases', 'Umbrellas', 'Wallets & Card Cases', 'Watches']","['Men', 'Main']","Main,Accessories",Men
+224,Belts,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Belts",Men
+225,Cuff Links,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Jewelry",Men
+226,Sunglasses & Eyewear,"[227, 228]",223,No,"[223.0, 149.0, 0.0]",2,"['Eyeglasses', 'Sunglasses']","['Accessories', 'Men', 'Main']","Main,Accessories,Eyewear",Men
+227,Eyeglasses,[],226,Yes,"[226.0, 223.0, 149.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Men', 'Main']","Main,Accessories,Eyewear,Eyeglasses",Men
+228,Sunglasses,[],226,Yes,"[226.0, 223.0, 149.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Men', 'Main']","Main,Accessories,Eyewear,Sunglasses",Men
+229,Gloves & Mittens,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Gloves",Men
+230,Scarves,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Scarves",Men
+231,Hats,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Hats",Men
+232,Ties,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Ties",Men
+233,Jewelry,[234],223,No,"[223.0, 149.0, 0.0]",2,['Wedding Bands'],"['Accessories', 'Men', 'Main']","Main,Accessories,Jewelry",Men
+234,Wedding Bands,[],233,Yes,"[233.0, 223.0, 149.0, 0.0]",3,[],"['Jewelry', 'Accessories', 'Men', 'Main']","Main,Accessories,Jewelry,Rings",Men
+235,Headphones,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Electronics",Men
+236,Phone Cases,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Phone Cases",Men
+237,Umbrellas,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Umbrellas",Men
+238,Wallets & Card Cases,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Wallets",Men
+239,Watches,[],223,Yes,"[223.0, 149.0, 0.0]",2,[],"['Accessories', 'Men', 'Main']","Main,Accessories,Jewelry,Watches",Men
+240,Unisex,"[241, 245, 247, 249]",0,No,[0.0],0,"['Clothing', 'Bags', 'Shoes', 'Accessories']",['Main'],,N/A
+241,Clothing,"[242, 243, 244]",240,No,"[240.0, 0.0]",1,"['Tops', 'Activewear', 'Pants']","['Unisex', 'Main']","Main,Clothing",N/A
+242,Tops,[],241,Yes,"[241.0, 240.0, 0.0]",2,[],"['Clothing', 'Unisex', 'Main']","Main,Clothing,Tops",N/A
+243,Activewear,[],241,Yes,"[241.0, 240.0, 0.0]",2,[],"['Clothing', 'Unisex', 'Main']","Main,Clothing,Activewear",N/A
+244,Pants,[],241,Yes,"[241.0, 240.0, 0.0]",2,[],"['Clothing', 'Unisex', 'Main']","Main,Clothing,Pants",N/A
+245,Bags,[246],240,No,"[240.0, 0.0]",1,['Backpacks'],"['Unisex', 'Main']","Main,Bags",N/A
+246,Backpacks,[],245,Yes,"[245.0, 240.0, 0.0]",2,[],"['Bags', 'Unisex', 'Main']","Main,Bags,Backpacks",N/A
+247,Shoes,[248],240,No,"[240.0, 0.0]",1,['Sneakers & Athletic'],"['Unisex', 'Main']","Main,Shoes",N/A
+248,Sneakers & Athletic,[],247,Yes,"[247.0, 240.0, 0.0]",2,[],"['Shoes', 'Unisex', 'Main']","Main,Shoes,Sneakers & Athletic",N/A
+249,Accessories,"[250, 253, 254]",240,No,"[240.0, 0.0]",1,"['Sunglasses & Eyewear', 'Phone Cases', 'Jewelry']","['Unisex', 'Main']","Main,Accessories",N/A
+250,Sunglasses & Eyewear,"[251, 252]",249,No,"[249.0, 240.0, 0.0]",2,"['Eyeglasses', 'Sunglasses']","['Accessories', 'Unisex', 'Main']","Main,Accessories,Eyewear",N/A
+251,Eyeglasses,[],250,Yes,"[250.0, 249.0, 240.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Unisex', 'Main']","Main,Accessories,Eyewear,Eyeglasses",N/A
+252,Sunglasses,[],250,Yes,"[250.0, 249.0, 240.0, 0.0]",3,[],"['Sunglasses & Eyewear', 'Accessories', 'Unisex', 'Main']","Main,Accessories,Eyewear,Sunglasses",N/A
+253,Phone Cases,[],249,Yes,"[249.0, 240.0, 0.0]",2,[],"['Accessories', 'Unisex', 'Main']","Main,Accessories,Phone Cases",N/A
+254,Jewelry,[],249,Yes,"[249.0, 240.0, 0.0]",2,[],"['Accessories', 'Unisex', 'Main']","Main,Accessories,Jewelry",N/A
+255,Kids,"[256, 287, 292, 309, 326, 328]",0,No,[0.0],0,"['Baby Gear', 'Baby Clothing', 'Girls Clothing', 'Boys Clothing', 'Unisex Clothing', 'Toys']",['Main'],,Kids
+256,Baby Gear,"[257, 265, 269, 274, 279, 280, 281]",255,No,"[255.0, 0.0]",1,"['Activity Gyms & Swings', 'Baby Carriers', 'Car Seats', 'Baby Diapering', 'Baby Feeding', 'Bath & Safety', 'Strollers']","['Kids', 'Main']","Main,Baby Gear",Baby
+257,Activity Gyms & Swings,"[258, 259, 260, 261, 262, 263, 264]",256,No,"[256.0, 255.0, 0.0]",2,"['Activity Centers & Jumpers', 'Bouncers', 'Gyms & Playmats', 'Portable Beds & Playards', 'Swings', 'Baby Travel Accessories', 'Baby Walkers']","['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+258,Activity Centers & Jumpers,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+259,Bouncers,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+260,Gyms & Playmats,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+261,Portable Beds & Playards,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+262,Swings,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+263,Baby Travel Accessories,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+264,Baby Walkers,[],257,Yes,"[257.0, 256.0, 255.0, 0.0]",3,[],"['Activity Gyms & Swings', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+265,Baby Carriers,"[266, 267, 268]",256,No,"[256.0, 255.0, 0.0]",2,"['Backpack & Frame Baby Carriers', 'Front Baby Carriers', 'Slings & Wraps']","['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+266,Backpack & Frame Baby Carriers,[],265,Yes,"[265.0, 256.0, 255.0, 0.0]",3,[],"['Baby Carriers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+267,Front Baby Carriers,[],265,Yes,"[265.0, 256.0, 255.0, 0.0]",3,[],"['Baby Carriers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+268,Slings & Wraps,[],265,Yes,"[265.0, 256.0, 255.0, 0.0]",3,[],"['Baby Carriers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+269,Car Seats,"[270, 271, 272, 273]",256,No,"[256.0, 255.0, 0.0]",2,"['Booster Car Seats', 'Convertible Car Seats', 'Infant Car Seats', 'Baby Car Seats Accessories']","['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+270,Booster Car Seats,[],269,Yes,"[269.0, 256.0, 255.0, 0.0]",3,[],"['Car Seats', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+271,Convertible Car Seats,[],269,Yes,"[269.0, 256.0, 255.0, 0.0]",3,[],"['Car Seats', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+272,Infant Car Seats,[],269,Yes,"[269.0, 256.0, 255.0, 0.0]",3,[],"['Car Seats', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+273,Baby Car Seats Accessories,[],269,Yes,"[269.0, 256.0, 255.0, 0.0]",3,[],"['Car Seats', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+274,Baby Diapering,"[275, 276, 277, 278]",256,No,"[256.0, 255.0, 0.0]",2,"['Diapers', 'Diaper Bags', 'Baby Changing Pads', 'Baby Wipes & Accessories']","['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+275,Diapers,[],274,Yes,"[274.0, 256.0, 255.0, 0.0]",3,[],"['Baby Diapering', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+276,Diaper Bags,[],274,Yes,"[274.0, 256.0, 255.0, 0.0]",3,[],"['Baby Diapering', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+277,Baby Changing Pads,[],274,Yes,"[274.0, 256.0, 255.0, 0.0]",3,[],"['Baby Diapering', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+278,Baby Wipes & Accessories,[],274,Yes,"[274.0, 256.0, 255.0, 0.0]",3,[],"['Baby Diapering', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+279,Baby Feeding,[],256,Yes,"[256.0, 255.0, 0.0]",2,[],"['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+280,Bath & Safety,[],256,Yes,"[256.0, 255.0, 0.0]",2,[],"['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+281,Strollers,"[282, 283, 284, 285, 286]",256,No,"[256.0, 255.0, 0.0]",2,"['Single Strollers', 'Double & Triple Strollers', 'Jogging Strollers', 'Baby Travel Systems', 'Stroller Accessories']","['Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+282,Single Strollers,[],281,Yes,"[281.0, 256.0, 255.0, 0.0]",3,[],"['Strollers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+283,Double & Triple Strollers,[],281,Yes,"[281.0, 256.0, 255.0, 0.0]",3,[],"['Strollers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+284,Jogging Strollers,[],281,Yes,"[281.0, 256.0, 255.0, 0.0]",3,[],"['Strollers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+285,Baby Travel Systems,[],281,Yes,"[281.0, 256.0, 255.0, 0.0]",3,[],"['Strollers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+286,Stroller Accessories,[],281,Yes,"[281.0, 256.0, 255.0, 0.0]",3,[],"['Strollers', 'Baby Gear', 'Kids', 'Main']","Main,Baby Gear",Baby
+287,Baby Clothing,"[288, 289, 290, 291]",255,No,"[255.0, 0.0]",1,"['Accessories', 'Baby Girl Clothing', 'Baby Boy Clothing', 'Unisex Baby Clothing']","['Kids', 'Main']","Main,Clothing",Kids
+288,Accessories,[],287,Yes,"[287.0, 255.0, 0.0]",2,[],"['Baby Clothing', 'Kids', 'Main']","Main,Accessories",Kids
+289,Baby Girl Clothing,[],287,Yes,"[287.0, 255.0, 0.0]",2,[],"['Baby Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+290,Baby Boy Clothing,[],287,Yes,"[287.0, 255.0, 0.0]",2,[],"['Baby Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+291,Unisex Baby Clothing,[],287,Yes,"[287.0, 255.0, 0.0]",2,[],"['Baby Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+292,Girls Clothing,"[293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308]",255,No,"[255.0, 0.0]",1,"['Girls (Sizes 2T-6X)', 'Girls (Sizes 7-16)', 'Tween Girls', 'Accessories', 'Activewear', 'Hoodies & Sweatshirts', 'Coats & Jackets', 'Dresses & Rompers', 'Jeans', 'Leggings & Pants', 'Pajamas & Robes', 'Shorts', 'Swimsuits & Cover-ups', 'Tops', 'Underwear & Bras', 'Shoes']","['Kids', 'Main']","Main,Clothing",Kids
+293,Girls (Sizes 2T-6X),[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+294,Girls (Sizes 7-16),[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+295,Tween Girls,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+296,Accessories,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Accessories",Kids
+297,Activewear,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Activewear",Kids
+298,Hoodies & Sweatshirts,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Hoodies & Sweatshirts",Kids
+299,Coats & Jackets,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Coats & Jackets",Kids
+300,Dresses & Rompers,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Jumpers & Rompers",Kids
+301,Jeans,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Pants,Jeans",Kids
+302,Leggings & Pants,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Pants",Kids
+303,Pajamas & Robes,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Sleepwear",Kids
+304,Shorts,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Shorts",Kids
+305,Swimsuits & Cover-ups,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Swimwear",Kids
+306,Tops,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Tops",Kids
+307,Underwear & Bras,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Clothing,Underwear & Socks",Kids
+308,Shoes,[],292,Yes,"[292.0, 255.0, 0.0]",2,[],"['Girls Clothing', 'Kids', 'Main']","Main,Shoes",Kids
+309,Boys Clothing,"[310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325]",255,No,"[255.0, 0.0]",1,"['Boys (Sizes 2T-7)', 'Boys (Sizes 8-20)', 'Tween Boys', 'Accessories', 'Activewear', 'Coats & Jackets', 'Hoodies & Sweatshirts', 'Jeans', 'Pajamas & Robes', 'Pants', 'Shirts & Tops', 'Suits & Separates', 'Shorts', 'Swim Trunks & Rashguards', 'Underwear & Socks', 'Shoes']","['Kids', 'Main']","Main,Clothing",Kids
+310,Boys (Sizes 2T-7),[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+311,Boys (Sizes 8-20),[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+312,Tween Boys,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing",Kids
+313,Accessories,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Accessories",Kids
+314,Activewear,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Activewear",Kids
+315,Coats & Jackets,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Coats & Jackets",Kids
+316,Hoodies & Sweatshirts,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Hoodies & Sweatshirts",Kids
+317,Jeans,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Pants,Jeans",Kids
+318,Pajamas & Robes,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Sleepwear",Kids
+319,Pants,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Pants",Kids
+320,Shirts & Tops,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Tops",Kids
+321,Suits & Separates,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Suits",Kids
+322,Shorts,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Shorts",Kids
+323,Swim Trunks & Rashguards,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Swimwear",Kids
+324,Underwear & Socks,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Clothing,Underwear & Socks",Kids
+325,Shoes,[],309,Yes,"[309.0, 255.0, 0.0]",2,[],"['Boys Clothing', 'Kids', 'Main']","Main,Shoes",Kids
+326,Unisex Clothing,[327],255,No,"[255.0, 0.0]",1,['Shoes'],"['Kids', 'Main']","Main,Clothing",Kids
+327,Shoes,[],326,Yes,"[326.0, 255.0, 0.0]",2,[],"['Unisex Clothing', 'Kids', 'Main']","Main,Shoes",Kids
+328,Toys,"[329, 330, 331, 332, 333, 334, 335, 336]",255,No,"[255.0, 0.0]",1,"['Action Figures & Vehicles', 'Baby & Infant Toys', 'Kids Books Music & DVDs', 'Dolls & Stuffed Animals', 'Games & Puzzles', 'Learning & Activity Toys', 'Outdoor Sports & Games', 'Pretend Play & Costumes']","['Kids', 'Main']","Main,Toys & Games",Kids
+329,Action Figures & Vehicles,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+330,Baby & Infant Toys,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+331,Kids Books Music & DVDs,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+332,Dolls & Stuffed Animals,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+333,Games & Puzzles,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+334,Learning & Activity Toys,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+335,Outdoor Sports & Games,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Sports & Outdoors",Kids
+336,Pretend Play & Costumes,[],328,Yes,"[328.0, 255.0, 0.0]",2,[],"['Toys', 'Kids', 'Main']","Main,Toys & Games",Kids
+337,Home & Decor,"[338, 345, 357, 379, 387, 398, 407]",0,No,[0.0],0,"['Bath', 'Bedding & Linens', 'Decor', 'Furniture', 'Kitchen', 'Tabletop', 'Luggage & Travel']",['Main'],"Main,Home & Decor",N/A
+338,Bath,"[339, 340, 341, 342, 343, 344]",337,No,"[337.0, 0.0]",1,"['Bath Accessories', 'Bath Hardware', 'Rugs & Mats', 'Shower Curtains', 'Soaps & Gift Sets', 'Bath Robes']","['Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+339,Bath Accessories,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+340,Bath Hardware,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+341,Rugs & Mats,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+342,Shower Curtains,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+343,Soaps & Gift Sets,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+344,Bath Robes,[],338,Yes,"[338.0, 337.0, 0.0]",2,[],"['Bath', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+345,Bedding & Linens,"[346, 347, 348, 349, 350, 351, 352, 353, 354]",337,No,"[337.0, 0.0]",1,"['Bedding', 'Bedding Basics', 'Bedding Sets', 'Blankets & Throws', 'Comforters & Quilts', 'Decorative Pillows', 'Duvet Covers & Shams', 'Sheets & Bed Skirts', 'Towels']","['Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+346,Bedding,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+347,Bedding Basics,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+348,Bedding Sets,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+349,Blankets & Throws,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+350,Comforters & Quilts,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+351,Decorative Pillows,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+352,Duvet Covers & Shams,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+353,Sheets & Bed Skirts,[],345,Yes,"[345.0, 337.0, 0.0]",2,[],"['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+354,Towels,"[355, 356]",345,No,"[345.0, 337.0, 0.0]",2,"['Bath Towels & Washcloths', 'Beach Towels']","['Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+355,Bath Towels & Washcloths,[],354,Yes,"[354.0, 345.0, 337.0, 0.0]",3,[],"['Towels', 'Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+356,Beach Towels,[],354,Yes,"[354.0, 345.0, 337.0, 0.0]",3,[],"['Towels', 'Bedding & Linens', 'Home & Decor', 'Main']","Main,Home & Decor,Bath",N/A
+357,Decor,"[358, 359, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 378]",337,No,"[337.0, 0.0]",1,"['Accent Furniture', 'Art & Wall Decor', 'Mirrors', 'Candles & Diffusers', 'Curtains & Drapes', 'Decorative Accents', 'Decorative Trays', 'Desk Accessories & Stationery', 'Jewelry Boxes & Holders', 'Lighting & Lamps', 'Picture Frames', 'Pillows & Throw Blankets', 'Rugs', 'Vases']","['Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+358,Accent Furniture,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+359,Art & Wall Decor,"[360, 363]",357,No,"[357.0, 337.0, 0.0]",2,"['Posters & Prints', 'Wall Art']","['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+360,Posters & Prints,"[361, 362]",359,No,"[359.0, 357.0, 337.0, 0.0]",3,"['Solid-Faced Prints', 'Framed Prints']","['Art & Wall Decor', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+361,Solid-Faced Prints,[],360,Yes,"[360.0, 359.0, 357.0, 337.0, 0.0]",4,[],"['Posters & Prints', 'Art & Wall Decor', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+362,Framed Prints,[],360,Yes,"[360.0, 359.0, 357.0, 337.0, 0.0]",4,[],"['Posters & Prints', 'Art & Wall Decor', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+363,Wall Art,[],359,Yes,"[359.0, 357.0, 337.0, 0.0]",3,[],"['Art & Wall Decor', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+364,Mirrors,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+365,Candles & Diffusers,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+366,Curtains & Drapes,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+367,Decorative Accents,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+368,Decorative Trays,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+369,Desk Accessories & Stationery,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+370,Jewelry Boxes & Holders,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+371,Lighting & Lamps,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+372,Picture Frames,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+373,Pillows & Throw Blankets,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Bedding & Linens",N/A
+374,Rugs,"[375, 376, 377]",357,No,"[357.0, 337.0, 0.0]",2,"['Contemporary Rugs', 'Transitional Rugs', 'Traditional Rugs']","['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor,Rugs",N/A
+375,Contemporary Rugs,[],374,Yes,"[374.0, 357.0, 337.0, 0.0]",3,[],"['Rugs', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor,Rugs",N/A
+376,Transitional Rugs,[],374,Yes,"[374.0, 357.0, 337.0, 0.0]",3,[],"['Rugs', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor,Rugs",N/A
+377,Traditional Rugs,[],374,Yes,"[374.0, 357.0, 337.0, 0.0]",3,[],"['Rugs', 'Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor,Rugs",N/A
+378,Vases,[],357,Yes,"[357.0, 337.0, 0.0]",2,[],"['Decor', 'Home & Decor', 'Main']","Main,Home & Decor,Decor",N/A
+379,Furniture,"[380, 381, 382, 383, 384, 385, 386]",337,No,"[337.0, 0.0]",1,"['Living Room Furniture', 'Bedroom Furniture', 'Dining Room Furniture', 'Home Office Furniture', 'Kitchen Furniture', 'Bathroom Furniture', 'Outdoor Furniture']","['Home & Decor', 'Main']","Main,Home & Decor,Furniture",N/A
+380,Living Room Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Indoor Furniture",N/A
+381,Bedroom Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Indoor Furniture",N/A
+382,Dining Room Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Indoor Furniture",N/A
+383,Home Office Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Indoor Furniture",N/A
+384,Kitchen Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+385,Bathroom Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Indoor Furniture",N/A
+386,Outdoor Furniture,[],379,Yes,"[379.0, 337.0, 0.0]",2,[],"['Furniture', 'Home & Decor', 'Main']","Main,Home & Decor,Furniture,Outdoor Furniture",N/A
+387,Kitchen,"[388, 389, 390, 391, 392, 393, 394, 395, 396, 397]",337,No,"[337.0, 0.0]",1,"['Kitchen Appliances', 'Bakeware', 'Kitchen Cleaning', 'Coffee, Tea & Espresso', 'Cookware', 'Kitchen Knives & Cutlery', 'Cookbooks', 'Kitchen Linens', 'Kitchen Storage', 'Kitchen Tools']","['Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+388,Kitchen Appliances,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+389,Bakeware,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+390,Kitchen Cleaning,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+391,"Coffee, Tea & Espresso",[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+392,Cookware,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+393,Kitchen Knives & Cutlery,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+394,Cookbooks,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+395,Kitchen Linens,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+396,Kitchen Storage,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+397,Kitchen Tools,[],387,Yes,"[387.0, 337.0, 0.0]",2,[],"['Kitchen', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+398,Tabletop,"[399, 400, 401, 402, 403, 404, 405, 406]",337,No,"[337.0, 0.0]",1,"['Bar Accessories', 'Dinnerware', 'Drinkware & Glassware', 'Flatware', 'Serveware', 'Table Linens', 'Tea & Coffee', 'Water Bottles & Tumblers']","['Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+399,Bar Accessories,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+400,Dinnerware,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+401,Drinkware & Glassware,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+402,Flatware,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+403,Serveware,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+404,Table Linens,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+405,Tea & Coffee,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+406,Water Bottles & Tumblers,[],398,Yes,"[398.0, 337.0, 0.0]",2,[],"['Tabletop', 'Home & Decor', 'Main']","Main,Home & Decor,Kitchen",N/A
+407,Luggage & Travel,"[408, 409, 410, 411, 412, 413]",337,No,"[337.0, 0.0]",1,"['Carry-on Luggage', 'Travel Duffels & Totes', 'Garment Bags', 'Laptop Cases', 'Luggage Sets', 'Rolling Luggage']","['Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+408,Carry-on Luggage,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+409,Travel Duffels & Totes,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+410,Garment Bags,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+411,Laptop Cases,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+412,Luggage Sets,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+413,Rolling Luggage,[],407,Yes,"[407.0, 337.0, 0.0]",2,[],"['Luggage & Travel', 'Home & Decor', 'Main']","Main,Luggage & Travel",N/A
+414,Hair & Beauty,"[415, 432, 446, 452]",0,No,[0.0],0,"['Makeup', 'Skin Care', 'Hair', 'Fragrances']",['Main'],"Main,Hair & Beauty",N/A
+415,Makeup,"[416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431]",414,No,"[414.0, 0.0]",1,"['Blush', 'Bronzer', 'Brushes & Tools', 'Concealer', 'Eyebrows', 'Eyeliner', 'Eyeshadow', 'Foundation', 'Gifts & Sets', 'Highlighter', 'Lipstick, Lip Gloss & Liner', 'Mascara', 'Nail Polish & Care', 'Palettes', 'Powder & Setting Spray', 'Primer']","['Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+416,Blush,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+417,Bronzer,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+418,Brushes & Tools,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+419,Concealer,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+420,Eyebrows,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+421,Eyeliner,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+422,Eyeshadow,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+423,Foundation,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+424,Gifts & Sets,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+425,Highlighter,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+426,"Lipstick, Lip Gloss & Liner",[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+427,Mascara,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+428,Nail Polish & Care,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+429,Palettes,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+430,Powder & Setting Spray,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+431,Primer,[],415,Yes,"[415.0, 414.0, 0.0]",2,[],"['Makeup', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Makeup",N/A
+432,Skin Care,"[433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445]",414,No,"[414.0, 0.0]",1,"['Cleansers', 'Exfoliators & Peels', 'Eye Creams & Treatments', 'Face Masks', 'Face Mists & Essences', 'Face Moisturizers', 'Gifts & Sets', 'Lip Balms & Treatments', 'Makeup Remover', 'Serums', 'Sunscreen & Self-Tanners', 'Toners', 'Tools & Devices']","['Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+433,Cleansers,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+434,Exfoliators & Peels,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+435,Eye Creams & Treatments,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+436,Face Masks,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+437,Face Mists & Essences,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+438,Face Moisturizers,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+439,Gifts & Sets,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+440,Lip Balms & Treatments,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+441,Makeup Remover,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+442,Serums,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+443,Sunscreen & Self-Tanners,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+444,Toners,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+445,Tools & Devices,[],432,Yes,"[432.0, 414.0, 0.0]",2,[],"['Skin Care', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Skincare",N/A
+446,Hair,"[447, 448, 449, 450, 451]",414,No,"[414.0, 0.0]",1,"['Hair Care', 'Hair & Scalp Treatments', 'Hair Dryers & Styling Tools', 'Hair Styling Products', 'Shampoo & Conditioner']","['Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+447,Hair Care,[],446,Yes,"[446.0, 414.0, 0.0]",2,[],"['Hair', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+448,Hair & Scalp Treatments,[],446,Yes,"[446.0, 414.0, 0.0]",2,[],"['Hair', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+449,Hair Dryers & Styling Tools,[],446,Yes,"[446.0, 414.0, 0.0]",2,[],"['Hair', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+450,Hair Styling Products,[],446,Yes,"[446.0, 414.0, 0.0]",2,[],"['Hair', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+451,Shampoo & Conditioner,[],446,Yes,"[446.0, 414.0, 0.0]",2,[],"['Hair', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Hair",N/A
+452,Fragrances,"[453, 454]",414,No,"[414.0, 0.0]",1,"['Womens Fragrances', 'Mens Fragrances']","['Hair & Beauty', 'Main']","Main,Hair & Beauty,Fragrances",N/A
+453,Womens Fragrances,[],452,Yes,"[452.0, 414.0, 0.0]",2,[],"['Fragrances', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Fragrances",N/A
+454,Mens Fragrances,[],452,Yes,"[452.0, 414.0, 0.0]",2,[],"['Fragrances', 'Hair & Beauty', 'Main']","Main,Hair & Beauty,Fragrances",N/A
+455,Media,"[456, 458, 460]",0,No,[0.0],0,"['Books', 'Music', 'Video']",['Main'],"Main,Entertainment",N/A
+456,Books,[457],455,No,"[455.0, 0.0]",1,['Print Books'],"['Media', 'Main']","Main,Entertainment,Books",N/A
+457,Print Books,[],456,Yes,"[456.0, 455.0, 0.0]",2,[],"['Books', 'Media', 'Main']","Main,Entertainment,Books",N/A
+458,Music,[459],455,No,"[455.0, 0.0]",1,['CD & Vinyl'],"['Media', 'Main']","Main,Entertainment,Music",N/A
+459,CD & Vinyl,[],458,Yes,"[458.0, 455.0, 0.0]",2,[],"['Music', 'Media', 'Main']","Main,Entertainment,Music",N/A
+460,Video,[461],455,No,"[455.0, 0.0]",1,['Movies'],"['Media', 'Main']","Main,Entertainment,Movies",N/A
+461,Movies,[],460,Yes,"[460.0, 455.0, 0.0]",2,[],"['Video', 'Media', 'Main']","Main,Entertainment,Movies",N/A
+462,Food,[],0,Yes,[0.0],1,[],['Main'],"Main,Food",N/A
+463,Tall Boots,[],102,Yes,"[102.0, 101.0, 1.0, 0.0]",3,[],"['Boots & Booties', 'Shoes', 'Women', 'Main']","Main,Shoes,Boots,Tall Boots",Women
